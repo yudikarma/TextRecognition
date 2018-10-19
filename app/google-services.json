@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "186821191985",
+    "firebase_url": "https://warkop-of-sale.firebaseio.com",
+    "project_id": "warkop-of-sale",
+    "storage_bucket": "warkop-of-sale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186821191985:android:2fb2efdffe7180f8",
+        "android_client_info": {
+          "package_name": "com.example.fahrul.qr_codereadertarepository"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186821191985-4rb4o0kid8nqi688u7rt5ef4cuegte7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fahrul.qr_codereadertarepository",
+            "certificate_hash": "9b743c424b1b8416a915262eb1e3d2bd71dd644f"
+          }
+        },
+        {
+          "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMV4I_JjZ2RGqgsU98yg-gqwl4xf3fOs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186821191985:android:92e33d8d2ae67357",
+        "android_client_info": {
+          "package_name": "com.example.imukal.kotlinfirstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186821191985-1pcckufttev7htjvvpfta86h0p9f7k87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imukal.kotlinfirstproject",
+            "certificate_hash": "9b743c424b1b8416a915262eb1e3d2bd71dd644f"
+          }
+        },
+        {
+          "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMV4I_JjZ2RGqgsU98yg-gqwl4xf3fOs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186821191985:android:9723e3089e519908",
+        "android_client_info": {
+          "package_name": "com.example.imukal.warkopofsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186821191985-fh4pvobvbdpt14d2uv71jb2t68nqkl3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imukal.warkopofsale",
+            "certificate_hash": "9b743c424b1b8416a915262eb1e3d2bd71dd644f"
+          }
+        },
+        {
+          "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMV4I_JjZ2RGqgsU98yg-gqwl4xf3fOs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186821191985:android:5f3e15ba45ba618a",
+        "android_client_info": {
+          "package_name": "com.example.yudikarma.textrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186821191985-4n3eqvecblvlp095q9a34vhqe0toiqt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yudikarma.textrecognition",
+            "certificate_hash": "9b743c424b1b8416a915262eb1e3d2bd71dd644f"
+          }
+        },
+        {
+          "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMV4I_JjZ2RGqgsU98yg-gqwl4xf3fOs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186821191985-eav2a4eo1qkktf5etfitsvp1h1jm5ln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
