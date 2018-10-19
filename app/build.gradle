@@ -37,7 +37,14 @@ dependencies {
     implementation 'com.android.support:support-v4:26.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     /*implementation 'com.firebaseui:firebase-ui-storage:4.2.0'*/
-    implementation 'com.google.firebase:firebase-ml-vision:17.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision:18.0.1'
+    implementation 'com.google.firebase:firebase-ml-vision-face-model:17.0.2'
+
+    //camera kit
+    implementation 'com.camerakit:camerakit:1.0.0-beta3.9'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:0.24.0'
+    implementation 'com.wonderkiln:camerakit:0.13.1'
 
 
 }

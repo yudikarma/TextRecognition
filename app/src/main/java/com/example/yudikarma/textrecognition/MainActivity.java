@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                /* call activity Textrecognition*/
-                Intent intent = new Intent(MainActivity.this,TextRecognition.class);
+                Intent intent = new Intent(MainActivity.this,Facedetection.class);
                 startActivity(intent);
 
             }
