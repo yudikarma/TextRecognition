@@ -40,19 +40,26 @@ public class TextRecognition extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_recognition);
+        /*insialize butterknife*/
         ButterKnife.bind(this);
+
+
+        /*TextRecognizer inisialize*/
 
         textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
             Log.i("Warning", "Detector tidak tersedia");
         } else {
+
+            /*build camera resource and getText from detector*/
+
             cameraSource = new CameraSource.Builder(getApplicationContext(), textRecognizer)
                     .setFacing(CameraSource.CAMERA_FACING_BACK)
                     .setRequestedPreviewSize(1280, 1024)
                     .setRequestedFps(2.0f)
                     .setAutoFocusEnabled(true)
                     .build();
-
+            /*surface view untuk menampung dan menjalankan camera resurce*/
             surfaceView.getHolder().addCallback(new SurfaceHolder.Callback() {
                 @Override
                 public void surfaceCreated(SurfaceHolder surfaceHolder) {
@@ -62,6 +69,7 @@ public class TextRecognition extends AppCompatActivity {
                             ActivityCompat.requestPermissions(TextRecognition.this, new String[]{Manifest.permission.CAMERA}, cameraRequest);
                             return;
                         }
+                        /*CAMERA resource need checkpermision before start*/
 
                         cameraSource.start(surfaceView.getHolder());
                     } catch (IOException e) {
@@ -80,6 +88,8 @@ public class TextRecognition extends AppCompatActivity {
 
                 }
             });
+
+            /*Call textrecognizer method to detect TExt from Textblock*/
 
             textRecognizer.setProcessor(new Detector.Processor<TextBlock>() {
                 @Override
@@ -126,6 +136,8 @@ public class TextRecognition extends AppCompatActivity {
                             return;
                         }
                     try {
+
+                            /*Call again camera resource start after permision camera Granted*/
                         cameraSource.start(surfaceView.getHolder());
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -135,7 +147,6 @@ public class TextRecognition extends AppCompatActivity {
 
                 }
 
-                return;
             }
         }
     }
